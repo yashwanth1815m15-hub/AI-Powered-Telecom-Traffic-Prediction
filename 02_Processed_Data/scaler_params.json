@@ -1,0 +1,170 @@
+{
+  "Cell_001_Metro_NCR": {
+    "data_usage": {
+      "min": 440.42,
+      "max": 1713854.16,
+      "range": 1713413.74
+    },
+    "active_users": {
+      "min": 22495.0,
+      "max": 58586.0,
+      "range": 36091.0
+    },
+    "call_volume": {
+      "min": 242327.0,
+      "max": 1400895.0,
+      "range": 1158568.0
+    },
+    "download_traffic": {
+      "min": 352.34,
+      "max": 1371083.33,
+      "range": 1370730.99
+    },
+    "upload_traffic": {
+      "min": 88.08,
+      "max": 342770.83,
+      "range": 342682.75
+    },
+    "latency": {
+      "min": 13.44,
+      "max": 79.37,
+      "range": 65.93
+    },
+    "packet_loss": {
+      "min": 0.097,
+      "max": 1.491,
+      "range": 1.3940000000000001
+    },
+    "bandwidth_utilization": {
+      "min": 36.25,
+      "max": 71.25,
+      "range": 35.0
+    }
+  },
+  "Cell_002_CategoryA_Urban": {
+    "data_usage": {
+      "min": 476.69,
+      "max": 1854995.09,
+      "range": 1854518.4000000001
+    },
+    "active_users": {
+      "min": 30675.0,
+      "max": 79890.0,
+      "range": 49215.0
+    },
+    "call_volume": {
+      "min": 221256.0,
+      "max": 1279078.0,
+      "range": 1057822.0
+    },
+    "download_traffic": {
+      "min": 381.35,
+      "max": 1483996.07,
+      "range": 1483614.72
+    },
+    "upload_traffic": {
+      "min": 95.34,
+      "max": 370999.02,
+      "range": 370903.68
+    },
+    "latency": {
+      "min": 14.36,
+      "max": 85.09,
+      "range": 70.73
+    },
+    "packet_loss": {
+      "min": 0.106,
+      "max": 1.603,
+      "range": 1.4969999999999999
+    },
+    "bandwidth_utilization": {
+      "min": 36.6,
+      "max": 71.6,
+      "range": 34.99999999999999
+    }
+  },
+  "Cell_003_CategoryB_Regional": {
+    "data_usage": {
+      "min": 404.15,
+      "max": 1572713.23,
+      "range": 1572309.08
+    },
+    "active_users": {
+      "min": 33538.0,
+      "max": 87346.0,
+      "range": 53808.0
+    },
+    "call_volume": {
+      "min": 193862.0,
+      "max": 1120716.0,
+      "range": 926854.0
+    },
+    "download_traffic": {
+      "min": 323.32,
+      "max": 1258170.58,
+      "range": 1257847.26
+    },
+    "upload_traffic": {
+      "min": 80.83,
+      "max": 314542.65,
+      "range": 314461.82
+    },
+    "latency": {
+      "min": 15.6,
+      "max": 90.69,
+      "range": 75.09
+    },
+    "packet_loss": {
+      "min": 0.116,
+      "max": 1.711,
+      "range": 1.595
+    },
+    "bandwidth_utilization": {
+      "min": 35.9,
+      "max": 70.9,
+      "range": 35.00000000000001
+    }
+  },
+  "Cell_004_National_Feed": {
+    "data_usage": {
+      "min": 5181.44,
+      "max": 20162990.08,
+      "range": 20157808.639999997
+    },
+    "active_users": {
+      "min": 409000.0,
+      "max": 1065200.0,
+      "range": 656200.0
+    },
+    "call_volume": {
+      "min": 210720.0,
+      "max": 1218170.0,
+      "range": 1007450.0
+    },
+    "download_traffic": {
+      "min": 4145.15,
+      "max": 16130392.06,
+      "range": 16126246.91
+    },
+    "upload_traffic": {
+      "min": 1036.29,
+      "max": 4032598.02,
+      "range": 4031561.73
+    },
+    "latency": {
+      "min": 16.92,
+      "max": 96.35,
+      "range": 79.42999999999999
+    },
+    "packet_loss": {
+      "min": 0.121,
+      "max": 1.816,
+      "range": 1.695
+    },
+    "bandwidth_utilization": {
+      "min": 82.0,
+      "max": 92.0,
+      "range": 10.0
+    }
+  }
+}

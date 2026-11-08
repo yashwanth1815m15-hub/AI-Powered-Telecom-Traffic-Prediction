@@ -1,0 +1,5 @@
+Model,R2_Score,RMSE_TB,MAE_TB,MAPE_Pct
+Gradient Boosting Regressor (GBR),0.9998,109121.31,39025.9,0.66
+Random Forest Regressor (Ensemble),0.9996,136305.47,49325.1,0.78
+Baseline (Persistence Lag-1),0.9977,342401.52,188455.17,3.32
+Deep Neural Network (MLP 64x32),0.4221,5463996.2,2842500.99,31.73

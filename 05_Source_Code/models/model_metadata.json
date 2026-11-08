@@ -1,0 +1,31 @@
+{
+  "feature_names": [
+    "active_users",
+    "call_volume",
+    "download_traffic",
+    "upload_traffic",
+    "bandwidth_utilization",
+    "latency",
+    "packet_loss",
+    "month",
+    "quarter",
+    "is_weekend",
+    "sin_month",
+    "cos_month",
+    "sin_quarter",
+    "cos_quarter",
+    "rolling_mean_3",
+    "rolling_std_3",
+    "rolling_mean_12",
+    "rolling_std_12",
+    "traffic_per_user",
+    "dl_to_ul_ratio",
+    "voice_to_data_ratio"
+  ],
+  "target": "data_usage",
+  "modeling_paradigm": "Growth-Momentum Forecasting",
+  "best_model": "Gradient Boosting Regressor (GBR)",
+  "best_r2": 0.9998,
+  "best_rmse_tb": 109121.31,
+  "best_mape_pct": 0.66
+}
