@@ -1,0 +1,11 @@
+{
+  "drift_detected": false,
+  "model_evaluated": "LSTM",
+  "baseline_mae_pct": 2.1,
+  "live_mae_pct": 2.47,
+  "error_deviation_pct": 17.6,
+  "status_label": "WITHIN BASELINE BOUNDS",
+  "traffic_light": "green",
+  "last_checked_at": "12 Nov 2026, 19:31 IST",
+  "plain_english_takeaway": "Recent simulated stream residual proxy is 2.47 MAE vs 2.10 MAE (LSTM test split in artifacts/metrics.json; +17.6% difference). This is an internal residual proxy, not live production tower truth."
+}

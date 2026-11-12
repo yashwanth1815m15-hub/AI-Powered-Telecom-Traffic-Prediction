@@ -1,0 +1,149 @@
+/* TeleSense Apple Design System (Dark Mode Masterpiece) */
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Noto Sans Kannada";
+  src: url("/fonts/NotoSansKannada.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, "Noto Sans Kannada", Helvetica, Arial, sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
+  --apple-bg: #000000;
+  --apple-surface: rgba(22, 22, 26, 0.75);
+  --apple-surface-hover: rgba(35, 35, 42, 0.85);
+  --apple-border: rgba(255, 255, 255, 0.08);
+  --apple-border-strong: rgba(255, 255, 255, 0.16);
+  --apple-blue: #0071e3;
+  --apple-blue-hover: #0077ed;
+  --apple-green: #30d158;
+  --apple-amber: #ffd60a;
+  --apple-red: #ff453a;
+  --apple-purple: #bf5af2;
+  --apple-cyan: #2997ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background-color: var(--apple-bg);
+  color: #f5f5f7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Apple Frosted Glass Utilities */
+.apple-glass {
+  background: rgba(18, 18, 22, 0.72);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.45);
+}
+
+.apple-glass-card {
+  background: rgba(24, 24, 29, 0.65);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 22px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.apple-glass-card:hover {
+  background: rgba(30, 30, 36, 0.75);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.apple-pill {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+}
+
+/* Smooth Apple Pulsing Beacons */
+@keyframes apple-pulse-green {
+  0% { box-shadow: 0 0 0 0 rgba(48, 209, 88, 0.8); }
+  70% { box-shadow: 0 0 0 14px rgba(48, 209, 88, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(48, 209, 88, 0); }
+}
+
+@keyframes apple-pulse-amber {
+  0% { box-shadow: 0 0 0 0 rgba(255, 214, 10, 0.85); }
+  70% { box-shadow: 0 0 0 16px rgba(255, 214, 10, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 214, 10, 0); }
+}
+
+@keyframes apple-pulse-red {
+  0% { box-shadow: 0 0 0 0 rgba(255, 69, 58, 0.9); }
+  70% { box-shadow: 0 0 0 20px rgba(255, 69, 58, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 69, 58, 0); }
+}
+
+.beacon-healthy {
+  width: 13px;
+  height: 13px;
+  background-color: #30d158;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  animation: apple-pulse-green 2.2s infinite;
+}
+
+.beacon-warning {
+  width: 15px;
+  height: 15px;
+  background-color: #ffd60a;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  animation: apple-pulse-amber 1.8s infinite;
+}
+
+.beacon-critical {
+  width: 17px;
+  height: 17px;
+  background-color: #ff453a;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  animation: apple-pulse-red 1.2s infinite;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Leaflet Container Styling */
+.leaflet-container {
+  background: #09090b !important;
+  font-family: inherit;
+}
+.leaflet-popup-content-wrapper {
+  background: rgba(20, 20, 24, 0.95) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  color: #f5f5f7 !important;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
+}
+.leaflet-popup-tip {
+  background: rgba(20, 20, 24, 0.95) !important;
+}
