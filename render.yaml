@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: telesense-india
+    runtime: docker
+    dockerContext: ./telesense
+    dockerfilePath: ./telesense/Dockerfile
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: DATA_SOURCE
+        value: simulator
+
